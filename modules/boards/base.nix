@@ -47,6 +47,7 @@ in {
             pname = "mesa-panfork";
             version = "23.0.0-panfork";
             src = mesa-panfork;
+            patches = []; # TODO: find the proper older patch
           })
         )
         .drivers;
