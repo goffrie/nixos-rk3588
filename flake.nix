@@ -2,7 +2,7 @@
   description = "A minimal NixOS configuration for the RK3588/RK3588S based SBCs";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05-small";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.11-small";
     flake-utils.url = "github:numtide/flake-utils";
 
     # GPU drivers
